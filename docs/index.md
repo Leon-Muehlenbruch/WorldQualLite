@@ -62,8 +62,8 @@ WorldQual Lite ist bewusst reduziert gegenüber dem [vollständigen WorldQual-Mo
 
 ```bash
 # 1. Repository klonen
-git clone https://github.com/Leon-Muehlenbruch/WorldQual-lite.git
-cd WorldQual-lite
+git clone https://github.com/Leon-Muehlenbruch/WorldQualLite.git
+cd WorldQualLite
 
 # 2. Abhängigkeiten installieren
 pip install -r requirements.txt

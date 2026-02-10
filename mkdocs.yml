@@ -1,8 +1,8 @@
 site_name: WorldQual Lite Dokumentation
 site_description: Vereinfachtes Wasserqualitäts-Frachtmodell für Gesamtphosphor
-site_url: https://leon-muehlenbruch.github.io/WorldQual-lite/
-repo_url: https://github.com/Leon-Muehlenbruch/WorldQual-lite
-repo_name: Leon-Muehlenbruch/WorldQual-lite
+site_url: https://leon-muehlenbruch.github.io/WorldQualLite/
+repo_url: https://github.com/Leon-Muehlenbruch/WorldQualLite
+repo_name: Leon-Muehlenbruch/WorldQualLite
 
 theme:
   name: material
@@ -67,4 +67,4 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/Leon-Muehlenbruch/WorldQual-lite
+      link: https://github.com/Leon-Muehlenbruch/WorldQualLite

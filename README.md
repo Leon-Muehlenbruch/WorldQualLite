@@ -4,7 +4,7 @@ Vereinfachtes Python-Modell zur Berechnung von **Gesamtphosphor-Frachten (TP)** 
 
 ## Dokumentation
 
-**[→ leon-muehlenbruch.github.io/WorldQual-lite](https://leon-muehlenbruch.github.io/WorldQual-lite/)**
+**[leon-muehlenbruch.github.io/WorldQualLite](https://leon-muehlenbruch.github.io/WorldQualLite/)**
 
 ## Überblick
 
@@ -31,8 +31,8 @@ WorldQual Lite berechnet monatliche und jährliche TP-Einträge aus 8 Quellen:
 
 ```bash
 # Klonen
-git clone https://github.com/Leon-Muehlenbruch/WorldQual-lite.git
-cd WorldQual-lite
+git clone https://github.com/Leon-Muehlenbruch/WorldQualLite.git
+cd WorldQualLite
 
 # Abhängigkeiten
 pip install -r requirements.txt
@@ -47,7 +47,7 @@ cd src && python WorldQual_Lite_TP.py
 ## Projektstruktur
 
 ```
-WorldQual-lite/
+WorldQualLite/
 ├── src/                    # Python-Quellcode
 │   ├── WorldQual_Lite_TP.py
 │   ├── Paths_and_params.py
