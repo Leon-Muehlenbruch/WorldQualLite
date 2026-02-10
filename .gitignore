@@ -1,0 +1,48 @@
+# Data files (too large for Git)
+data/Europe_Input_UNF_Files/
+data/Future_UNF_files/
+data/Europe_Cell_Input_Files/
+data/WG_mothers/
+
+# UNF binary files
+*.UNF0
+*.UNF1
+*.UNF2
+*.UNF4
+
+# Shapefiles
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qmd
+*.asc
+*.asc.aux.xml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MkDocs build output
+site/
+
+# Legacy docs
+*.docx

@@ -1,0 +1,70 @@
+site_name: WorldQual Lite Dokumentation
+site_description: Vereinfachtes Wasserqualitäts-Frachtmodell für Gesamtphosphor
+site_url: https://leon-muehlenbruch.github.io/WorldQual-lite/
+repo_url: https://github.com/Leon-Muehlenbruch/WorldQual-lite
+repo_name: Leon-Muehlenbruch/WorldQual-lite
+
+theme:
+  name: material
+  language: de
+  palette:
+    - scheme: default
+      primary: teal
+      accent: light green
+      toggle:
+        icon: material/brightness-7
+        name: Dunkelmodus aktivieren
+    - scheme: slate
+      primary: teal
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Hellmodus aktivieren
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang: de
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+
+nav:
+  - Home: index.md
+  - Benutzer-Dokumentation:
+    - Detaillierte Anleitung: user/anleitung.md
+    - Schnellreferenz: user/schnellreferenz.md
+    - Projektstruktur: user/projektstruktur.md
+  - Entwickler-Dokumentation:
+    - Architektur: technical/ARCHITECTURE.md
+    - API-Referenz: technical/API.md
+    - Datenbank & Datenquellen: technical/DATA_SOURCES.md
+    - Input-Daten Checkliste: technical/DATA_REQUIREMENTS.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Leon-Muehlenbruch/WorldQual-lite
